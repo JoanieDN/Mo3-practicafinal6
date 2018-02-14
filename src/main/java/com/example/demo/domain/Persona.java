@@ -45,8 +45,6 @@ public abstract class Persona {
 
     @Column(name = "estado")
     private String estado;
-
-    
     
     @Temporal(TemporalType.DATE)
     @Column(name = "fecha_creacion")

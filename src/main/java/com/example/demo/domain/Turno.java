@@ -22,9 +22,11 @@ public class Turno {
 	@JoinColumn(name="obra_social_id", referencedColumnName="obra_social_id")
 	private ObraSocial obra_social_id;
 	
+        @Temporal(TemporalType.DATE)
 	@Column(name="fecha_turno")
 	private Date fecha_turno;
 	
+        @Temporal(TemporalType.DATE)
 	@Column(name="fecha_solicitud_turno")
 	private Date fecha_solicitud_turno;
 	
