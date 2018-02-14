@@ -27,7 +27,7 @@ public class MedicoController {
     
     
     // Módulo del médico: a. Consultar los turnos de una fecha determinada 
-     @RequestMapping(value= "/buscarFecha/{fecha}")
+         @RequestMapping(value= "/buscarFecha/{fecha}")
      public List<Turno> buscarFecha( Date fecha){
      
          try{

@@ -32,6 +32,9 @@ public class AdministradorController {
         this.personaService  =  personaService;
         this.turnoService=turnoService;
     }
+
+ 
+
     
     
     @GetMapping(value = "/index")

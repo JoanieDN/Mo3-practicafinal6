@@ -21,4 +21,8 @@ public class Medico extends Persona {
         this.especialidad_id = especialidad_id;
     }
 
+    public void setId(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
 }
