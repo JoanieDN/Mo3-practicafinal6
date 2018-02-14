@@ -86,7 +86,7 @@ public class AdministradorControllerTest {
 
     }
 
-    @Test
+   /* @Test
     public void testActualizarMedico() throws Exception {
         System.out.println("actualizarMedico");
         
@@ -100,7 +100,7 @@ public class AdministradorControllerTest {
         MockHttpServletRequestBuilder nuevo = MockMvcRequestBuilders
                 .put("/editarMedico"+m).accept(MediaType.APPLICATION_JSON);
        
-    }
+    }*/
 
     @Test
     public void testEliminarMedico() throws Exception {
@@ -139,7 +139,7 @@ public class AdministradorControllerTest {
         .post("registrarPaciente/"+m).accept(MediaType.APPLICATION_JSON);
     }
 
-    @Test
+   /* @Test
     public void testActualizarPaciente() throws Exception {
         System.out.println("actualizarPaciente");
         Paciente paciente = null;
@@ -150,7 +150,7 @@ public class AdministradorControllerTest {
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
-
+*/
     @Test
     public void testBorrarPaciente() throws Exception {
         System.out.println("BorrarPaciente");

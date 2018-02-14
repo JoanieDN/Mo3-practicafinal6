@@ -2,20 +2,9 @@
 package com.example.demo.controller;
 
 import com.example.demo.domain.ObraSocial;
-import com.example.demo.domain.Persona;
 import com.example.demo.domain.Turno;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
 import java.util.Date;
-import java.util.List;
-import java.util.GregorianCalendar;
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
-import static org.junit.Assert.*;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.MediaType;
@@ -30,7 +19,7 @@ public class PacienteControllerTest {
     public PacienteControllerTest() {
     }
     
-  /*  @Test
+    @Test
     public void testLogin() {
         System.out.println("Login");
         String usuario = "jennifer";
@@ -38,7 +27,7 @@ public class PacienteControllerTest {
         
         MockHttpServletRequestBuilder request = MockMvcRequestBuilders
             .get("/Login/"+usuario+"/"+clave).accept(MediaType.APPLICATION_JSON);
-    }*/
+    }
 
     @Test
     public void testNuevoTurno() {

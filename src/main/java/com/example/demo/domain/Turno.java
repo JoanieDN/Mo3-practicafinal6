@@ -5,6 +5,7 @@ import java.util.Date;
 import javax.persistence.*;
 
 @Entity 
+@Cacheable
 @Table (name="turnos")
 public class Turno {
 

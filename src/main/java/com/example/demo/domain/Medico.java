@@ -6,6 +6,7 @@ import javax.persistence.*;
 
 
 @Entity
+@Cacheable
 @DiscriminatorValue(value = "MEDICO")
 public class Medico extends Persona {
 

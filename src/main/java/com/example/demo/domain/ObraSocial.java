@@ -7,6 +7,7 @@ import java.util.Date;
 import javax.persistence.*;
 
 @Entity 
+@Cacheable
 @Table (name="obras_sociales")
 public class ObraSocial {
 

@@ -5,6 +5,7 @@ import javax.persistence.*;
 
 
 @Entity 
+@Cacheable
 @Table (name="especialidades")
 public class Especialidad {
 

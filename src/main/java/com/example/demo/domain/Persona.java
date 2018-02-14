@@ -1,6 +1,7 @@
 package com.example.demo.domain;
 
 import java.util.Date;
+import javax.persistence.Cacheable;
 import javax.persistence.Column;
 import javax.persistence.DiscriminatorColumn;
 import javax.persistence.DiscriminatorType;
@@ -17,6 +18,7 @@ import org.hibernate.annotations.Subselect;
 
 
 @Entity
+@Cacheable
 @Table(name = "personas")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(name = "tipo_persona", discriminatorType = DiscriminatorType.STRING)
